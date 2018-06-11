@@ -1,0 +1,501 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name = "keywords" content = "LPKM 2018 conference, natural language processing" >
+	<title>LPKM 2018</title>
+	{% block css %}
+	
+	<!-- Bootstrap Core CSS -->
+	<link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+	 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+	<!-- Luxbar -->
+	<link rel="stylesheet" href="{% static 'build/luxbar.min.css' %}">
+	<link rel="stylesheet" href="{% static 'build/luxbar.css' %}">
+	<!-- Custom CSS -->
+
+    <link href="{% static 'bootstrap/css/business-casual.css' %}" rel="stylesheet">
+	 <link href="{% static 'bootstrap/css/business-casual.min.css' %}" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="{% static 'index.css' %}" rel="stylesheet" type="text/css" >
+	<!-- Fonts -->
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<!-- Fontawesome -->
+	<link href="{% static 'fontawesome/css/fontawesome-all.css' %}" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://www.facebook.com/Lpkm-2018-1511103815857772/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="LPKM 2018" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="../../images/background.jpg'" />
+	
+	
+
+	{% endblock %}
+	<!-- Google Tag Manager -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End Google Tag Manager -->
+
+	 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	
+</head>
+<body>
+
+   
+
+		<!-- Page Content -->
+		<div class="container">
+		
+			
+			
+			
+			
+			
+
+			
+				
+					{% block head_site %}
+				<div class="row" >
+				
+				
+				<div class="box">
+				
+				<div class="col-md-12">
+				
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators hidden-xs">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox" >
+              <div class="carousel-item active" >
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/149.jpg' %}" alt="First slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption"  >
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+              <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/kerkennah-cote.jpg' %}" alt="Second slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption"  >
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+              <div  class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/n-KERKENNAH-628x314.jpg' %}" alt="Third slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption">
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/Les-îles-Kerkennah_1.jpg' %}" alt="Third slide" style="height: 350px;width:1080px;">
+				<div class="carousel-caption" >
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/Kerkennah_2.jpg' %}" alt="Third slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption">
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  
+			  <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/414779966_0f7d8fa172_b2.jpg' %}" alt="Third slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption">
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  
+			    <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/414779967_f44ec46c5b_b1.jpg' %}" alt="Third slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption">
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  <div class="carousel-item">
+                <img id="carousel_img" class="d-block img-fluid" src="{% static '/images/vue-de-la-chambre-sur.jpg' %}" alt="Third slide" style="height: 350px;width: 1080px;">
+				<div class="carousel-caption">
+									<h3>lpkm 2018: Language Processing and Knowledge Management</h4>
+									<p class="date">Kerkennah, 07 - 09 September 2018</p>
+				</div>
+              </div>
+			  
+			  
+			  
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+				
+          </div>
+			</div>	
+				
+
+					
+
+        </div>
+		</div>		
+
+				
+				{% endblock %}
+		
+	</div>		
+	
+<!--
+<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-bluegrey">
+
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                <a href="#" class="luxbar-brand">LPKM 2018</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item"><a href="/index">Home</a></li>
+
+            <li class="luxbar-item"><a href="/contact">Contact</a></li>
+
+           
+
+   
+        </ul>
+    </div>
+</header>
+-->
+	     <!-- Navigation -->
+
+           
+
+             <nav class="navbar navbar-default" role="navigation">
+
+       
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+
+              
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+              
+
+                <ul class="nav navbar-nav">
+
+                    <li>
+
+                        <a href="/index" >Home</a>
+
+                    </li>
+
+                   
+
+
+                    <li><a href="/topics" >Topics</a></li>
+					<li><a href="/call_of_paper" >Call for Papers</a></li>
+					<li><a href="/call_of_paper#important_dates" >Important Dates</a></li>
+                    <li><a href="/program">Program</a></li>
+
+					<li class="dropdown">          
+            
+						<a class="dropdown-toggle" data-toggle="dropdown" href="/committees">Committees <span class="caret"></span></a>
+						<ul class="dropdown-menu"> 
+							<li><a href="/committees#Organizing_Committee">&bull;Organizing Committee</a></li>
+							<li><a href="/committees#Program_Committee">&bull;Program Committee</a></li>
+						 </ul>
+					</li>                    
+
+                   <!-- <li><a href="authors.html">For Authors</a></li>-->
+                   <!-- <li><a href="accommodation.html">Accommodation</a></li> -->
+
+                     
+
+                    <li >
+
+                        <a href="/contact">Contact Us</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- /.navbar-collapse -->
+           
+          
+         
+        </nav>
+
+	
+	
+<div class="container">
+
+        <div class="row" >
+		
+		<div class="box" style="width: 100%;">
+		<!--
+			<div class="col-md-3">
+			{% block menu %}
+			 
+          <div class="sidenav">
+            <a href="/index" >Home</a>
+			<a href="/topics" >Topics</a>
+            <a href="/call_of_paper" >Call for Papers</a>
+            <a href="/call_of_paper#important_dates" >Important Dates</a>
+			
+			<button class="dropdown-btn">Committees 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="/committees#Organizing_Committee">Organizing Committee</a>
+    <a href="/committees#Program_Committee">Program Committee</a>
+  </div>
+   
+      
+			<a href="/program" >Program</a>
+			<a href="#" >Registration Fees</a>
+			<a href="/previous_lpkm" >Previous LPKM </a>
+          </div>
+
+	<br>  
+		  
+		  
+
+
+			
+			{% endblock %}
+			<div style='text-align:center'> 
+				&nbsp; &nbsp; &nbsp; Follow us on: <i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/Lpkm-2018-1511103815857772/" target="_blank">Facebook</a>
+				</div>
+			</div>
+			-->
+            <div class="col-md-12 border" id="one"> 
+			<!--
+				<div class="row" > 
+					<div class="col-md-2 " ></div>
+					<div class="col-md-8 " > 
+						<div class="brand text-center">
+
+							<br>
+							2nd Language Processing and Knowledge Management Conference <br>
+							<span style="color: #006699; font-size:20px">
+
+							Kerkennah, Sfax, Tunisia <br>
+
+							02 - 04 September 2018</span>
+							<hr>
+
+						</div>
+					</div>
+				</div> -->
+				<div class="page-header">					
+					{% block page_head %}
+					<h1>Home</h1>
+					{% endblock %}
+				</div>
+					
+					
+					
+				
+				{% block content %}
+				<p style="text-align: justify;">The 2nd edition of the Language Processing and Knowledge Management conference will take place this year in Kerkennah island, Sfax, Tunisia.
+				Development of new technologies and various intelligent systems creates new possibilities for intelligent and efficient data processing. Natural Language Processing (NLP) addresses problems of automated understanding, processing, and generation of natural human languages
+				</p>
+				<p style="text-align: justify;">&nbsp;</span></p>
+				<p style="text-align: justify;">This conference provides a venue for presenting innovative research in NLP related, but not restricted, to computational and mathematical modeling, analysis and processing of any forms (spoken, handwritten or text) of human language and knowledge creation and management. The LPKM workshop will provide an opportunity for researchers working in the domain of NLP to discuss present and future challenges as well as potential collaboration for future progress in the field of NLP.</p>
+				<p style="text-align: justify;">&nbsp;&nbsp;</p>
+				{% endblock %}
+			</div>
+			
+		</div>
+		</div>
+		
+		
+		
+		
+		
+ <div class="row">
+ 
+	<div class="box" style="width: 100%;">			
+			<div class="col-md-1" ></div>
+            <div class="col-md-10" >
+				
+                
+				<table >
+
+				<tr>
+					<td style="border: none;  padding: 0.5cm 2cm 0.5cm 5.4pt;" valign="top">
+						<h2 class="intro-text text-center">Organizer</strong>
+
+						</h2>
+						<hr>
+						<hr>
+
+						<div style="text-align:center">
+
+						<a href="http://www.miracl.rnu.tn/" target="_blank"><img src="{% static '/images/Miracl-300x170.png' %}" hspace=20 style="height:90px";alt=""></a>
+						<a href="http://www.uss.rnu.tn/newVersion/" target="_blank"><img src="{% static '/images/UnivSfax.png' %}" hspace=20 style="height:90px";alt=""></a>
+						<a href="http://www.fsegs.rnu.tn/fra/home" target="_blank"><img src="{% static '/images/fsegs_1.png' %}" hspace=20 style="height:90px";alt=""></a>
+					
+					
+					
+
+						</div>
+<hr>
+<hr>
+					</td>
+					<td style="border: none;  padding: 0.5cm 12pt 0.5cm 5.4pt;" valign="top">
+						<h2 class="intro-text text-center">Sponsors</strong></h2>
+						<hr>
+						<hr>
+						<div style="text-align:center">
+						<a href="http://www.sopal.com/" target="_blank"><img src="{% static '/images/sopal_1.png' %}" hspace=20 style="height:90px";alt=""></a>
+						</div>
+						<hr>
+						<hr>
+					</td>
+				</tr>
+				</table>
+				
+               
+
+                   
+                    
+                    
+
+                 
+                    
+            </div>
+               
+            <div class="col-md-1" ></div>   
+
+               
+
+              
+
+    </div>
+
+  </div>    
+
+        
+
+     <div class="row">
+	 
+	 <div class="box" style="width: 100%;">
+
+            
+
+              <div class="col-md-12">  
+
+                
+
+                    
+
+                
+
+                 
+
+
+		<div class="text-faded text-center">
+		
+							<br>
+																
+							<div class="fb-like" data-href="https://www.facebook.com/Lpkm-2018-1511103815857772/" data-width="340"  data-height="130" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>	
+																							
+
+      
+    </div>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- /.container -->
+
+    <!-- jQuery -->
+    
+	<script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script> 
+	 <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
